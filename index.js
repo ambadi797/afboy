@@ -4,7 +4,6 @@ const fs = require('fs');
 let rawdata = fs.readFileSync('config.json');
 let data = JSON.parse(rawdata);
 var lasttime = -1;
-var moving = 0;
 var connected = 0;
 var lastaction;
 var pi = 3.14159;
