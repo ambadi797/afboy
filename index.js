@@ -63,7 +63,7 @@ bot.on('time', function(time) {
 });
 
 bot.on('spawn',function() {
-    connected=1;
+    connected=0;
 });
 
 bot.on('death',function() {
